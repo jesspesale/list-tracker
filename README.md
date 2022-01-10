@@ -1,7 +1,5 @@
 # README
 
-create-react-app list-tracker-frontend
-
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
