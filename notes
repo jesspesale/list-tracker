@@ -1,2 +1,10 @@
 
 create-react-app list-tracker-frontend
+
+
+List
+    title:string
+    completed:boolean
+
+ListItem
+    
