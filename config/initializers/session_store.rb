@@ -7,3 +7,4 @@ Rails.application.config.session_store :cookie_store, key: '_list_tracker'
 #     Rails.application.config.session_store :cookie_store, key: '_list-tracker', domain: 'name-of-you-app-json-api'
 #   else
 #     Rails.application.config.session_store :cookie_store, key: '_name-of-your-app'
+# end
