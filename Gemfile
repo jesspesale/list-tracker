@@ -10,6 +10,7 @@ gem 'sass-rails'
 gem 'webpacker'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
+gem "pry"
 # gem 'redis', '~> 4.0'
 gem "jwt", "~> 2.3"
 
