@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
     def home
-        render json: {state: 200}
+        render json: {status: 200}
     end
 
 end
