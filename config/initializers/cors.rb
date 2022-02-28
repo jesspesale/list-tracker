@@ -7,11 +7,19 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'
-    # Would make this the react deployed front end when done
+    origins 'http://localhost:3000'
 
     resource '*',
       headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
+
+#   allow do
+#     origins 'http://list-tracker-frontend.netlify.com'
+
+#     resource '*',
+#       headers: :any,
+#       methods: [:get, :post, :put, :patch, :delete, :options, :head]
+#   end
+
 end

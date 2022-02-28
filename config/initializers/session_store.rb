@@ -1,0 +1,9 @@
+# Specify the value of the cookie we are going ot be storing
+
+Rails.application.config.session_store :cookie_store, key: '_list_tracker'
+            # Add the domain: "deployed rails backend on heroku"
+
+# if Rails.env === 'production' 
+#     Rails.application.config.session_store :cookie_store, key: '_list-tracker', domain: 'name-of-you-app-json-api'
+#   else
+#     Rails.application.config.session_store :cookie_store, key: '_name-of-your-app'
