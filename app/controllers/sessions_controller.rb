@@ -8,8 +8,11 @@ class SessionsController < ApplicationController
         else
             render json: {statis: 401, message: "User not found or password incorrect"}
         end
-
     end
 
+    def logout
+        reset_session
+        render json: {status: 200, user: {}, logged_in: false}
+    end
 
 end
